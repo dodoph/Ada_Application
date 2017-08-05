@@ -1,3 +1,11 @@
+#Ask the user how much money they have
+#Assume that the $ symbol is part of the prompt; the user doesn't have to type it in every time.
+#Display all candy options and their costs (even if the user cannot afford the candy -- do you know a candy machine where the food you can't afford magically disappears?)
+#Decide whether the user can afford the candy or not
+#If they can't, tell them so
+#If they can, calculate and display their change
+
+
 puts "How much money do ya got?"
 money = gets.chomp.to_f
 if money < 0.5
