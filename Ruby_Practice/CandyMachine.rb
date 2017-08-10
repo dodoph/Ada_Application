@@ -11,7 +11,7 @@ money = gets.chomp.to_f
 if money < 0.5
   puts "You're broke. Take your money and go elsewhere."
 else
-  puts "$#{money}.00 that's all?"
+  puts "$#{money} that's all?"
   puts "Well, lemme tell ya what we got here."
   puts "A $0.65 Twix"
   puts "B $0.50 Chips"
