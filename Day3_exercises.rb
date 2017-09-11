@@ -48,15 +48,42 @@
 
 puts "Hello! We are going to total some numbers!"
 puts "Enter a negative number to quit."
-
 total = 0
-input = gets.chomp.to_i
+input = 0
 while input > -1
-  sec = gets.chomp.to_i
-  total += input
+  puts "Enter the number to total: "
   input = gets.chomp.to_i
+  puts "Enter your number again: "
+  sec = gets.chomp.to_i
+  until sec == input do
+    puts "Your number is not correct, enter again: "
+    sec = gets.chomp.to_i
+  end
+  total = total + sec
 end
-puts "#{input}"
+puts "Result: #{total - sec}"
+
+
+puts "Hello! We are going to total some numbers!"
+puts "Enter a negative number to quit."
+total = 0
+input = 0
+while input > -1
+  puts "Enter the number to total: "
+  input = gets.chomp.to_i
+  puts "Enter your number again: "
+  sec = gets.chomp.to_i
+  if input > -1
+    until sec == input do
+      puts "Your number is not correct, enter again: "
+      sec = gets.chomp.to_i
+    end
+    total = total + input
+  else
+    until sec == input do
+      puts "Your number is not correct, enter again: "
+      sec = gets.chomp.to_i
+    end
+  end
+end
 puts "Result: #{total}"
-# puts "#{input}"
-# puts "Result: #{total}"
