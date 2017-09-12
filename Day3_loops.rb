@@ -1,13 +1,13 @@
 rand_num = rand(5)
 guess = gets.chomp.to_i
 while rand_num != guess do #while do a block
-	guess = gets.chomp.to_i
+  guess = gets.chomp.to_i
 end
 
 rand_num = rand(5)
 guess = gets.chomp.to_i
 until rand_num == guess do
-	guess = gets.chomp.to_i
+  guess = gets.chomp.to_i
 end
 
 total = 0
