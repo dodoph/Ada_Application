@@ -22,10 +22,9 @@ people[0] = "Megan Smith"
 
 people = Array.new()
 people.push("Jess", "Lucy", "Dave", "Peter")
-print people[1..3]
-print people[1, 3]
-print people[1..-1]
-#["Lucy", "Dave", "Peter"]
+puts people[2]
+puts people[-2]
+#[Dave"]
 
 #4. On paper, create an array which stores the numbers 1 – 15.
 #Then write down two different ways of accessing the middle number?
