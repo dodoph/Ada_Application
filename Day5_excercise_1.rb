@@ -15,7 +15,8 @@ people = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
 people << "Grace Hopper"
 puts people[1] # outputs Annie Easley
 people[0] = "Megan Smith"
-list is now ["Megan Smith", "Annie Easley", "Margaret Hamilton", "Grace Hopper"]
+# list is now ["Megan Smith", "Annie Easley", "Margaret Hamilton", "Grace Hopper"]
+
 #3. On paper, create an array which stores the names of people that inspire you.
 # Then write down two different ways you can access the second-to-last name in your array?
 
