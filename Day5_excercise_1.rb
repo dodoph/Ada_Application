@@ -1,9 +1,11 @@
 #1.Create an array which will store the square of each value between 2 and 5, inclusive.
 list = []
 (2..5).each do |i|
-  print list.push(i * i)
+  list = i * i
+  lists << list
 end
-#
+print lists
+
 #2. print list = Array.new(4) { |i| (i + 2) * (i + 2) }
 # Given an array that contains three people, Ada Lovelace, Annie Easley, and Margaret Hamilton
 # (1) Add one new person of your choice,
@@ -25,7 +27,7 @@ print people[1..-1]
 #["Lucy", "Dave", "Peter"]
 
 #4. On paper, create an array which stores the numbers 1 – 15.
-Then write down two different ways of accessing the middle number?
+#Then write down two different ways of accessing the middle number?
 number = Array(1..15)
 puts (number.first + number.last) / 2
 
