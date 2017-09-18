@@ -39,4 +39,4 @@ puts middle_number
 
 #5. On paper, write code that will create an array named powers_of_2,
 # and stores the fist 10 powers of 2
-puts powers_of_2 = Array.new(10) { |i| i ** 2 }
+print powers_of_2 = Array.new(10) { |i| i ** 2 }
