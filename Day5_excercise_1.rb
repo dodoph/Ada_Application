@@ -1,5 +1,5 @@
 #1.Create an array which will store the square of each value between 2 and 5, inclusive.
-list = []
+lists = []
 (2..5).each do |i|
   list = i * i
   lists << list
