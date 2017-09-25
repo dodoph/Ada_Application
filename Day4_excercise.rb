@@ -9,16 +9,14 @@ hasSymbol = false
 hasUpper = false
 hasLower = false
 hasMoreThan8Characters = false
-password.each_char do |element| #switch string to chars
+
+password.each_char do |element|
   numbers.each do |number|
-    if element == number
+    if number == element
       hasNumber = true
       break
     end
   end
-  # if hasNumber == true
-  #   break
-  # end
   symbols.each do |symbol|
     if symbol == element
       hasSymbol = true
