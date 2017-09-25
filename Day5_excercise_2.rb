@@ -12,7 +12,13 @@ print names.map { |names| names.upcase }
 #Hint: Prompt the user to enter true or false, and accept those values using gets.
 #Since gets will give us back a string (instead of the boolean values we want) use
 #if statements to convert those strings to boolean values.
+values = 3.times.map { value = gets.chomp }
 
+if values[0] == "true" && values[1] == "true" && values[2] == "true"
+  puts "Yes"
+else
+  puts "no"
+end
 
 #3. Create an array to store the following words: firetruck, fire drill, fire hydrant, firefighter, fireproof, fire station, fire hose.
 #Then write code that uses the array to print out truck, drill, hydrant, fighter, proof, station, hose without modifying the array.
