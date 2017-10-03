@@ -1,7 +1,7 @@
 #1.store names of students
 names = ["Jessie", "Wendy", "Kelly"]
 #2.store students' names and their ages
-students = {Jessie: 29, Wendy: 22, Kelly: 33}
+students = { "Jessie": 29, "Wendy": 22, "Kelly": 33 }
 #3. store students' names, ages and their favorit colors.
 students = {
   Jessie: {age: 29, color: "white"},
